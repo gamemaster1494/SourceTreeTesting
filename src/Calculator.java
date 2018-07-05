@@ -41,4 +41,24 @@ public class Calculator {
 		//TODO: Complete method
 		return 0;
 	}
+	
+	public long add(long x, long y) {
+		//TODO: Complete method
+		return 0;
+	}
+	
+	public long subtract(long x, long y) {
+		//TODO: Complete method
+		return 0;
+	}
+	
+	public long divide(long x, long y) {
+		//TODO: Complete method
+		return 0;
+	}
+	
+	public long multiply(long x, long y) {
+		//TODO: Complete method
+		return 0;
+	}
 }
