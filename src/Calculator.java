@@ -18,63 +18,75 @@ public class Calculator {
 	}
 	
 	public int add(int x, int y) {
-		//TODO: Complete method.
-		return 0;
+		int result = x + y;
+		history.add(x + " + " + y + " = " + result);
+		return result;
 	}
 	
 	public int subtract(int x, int y) {
-		//TODO: Complete method.
-		return 0;
+		int result = x - y;
+		history.add(x + " - " + y + " = " + result);
+		return result;
 	}
 	
 	public int divide(int x, int y) {
-		//TODO: Complete method.
-		return 0;
+		int result = x / y;
+		history.add(x + " / " + y + " = " + result);
+		return result;
 	}
 	
 	public int multiply(int x, int y) {
-		//TODO: Complete method
-		return 0;
+		int result = x * y;
+		history.add(x + " * " + y + " = " + result);
+		return result;
 	}
 
 
 	public double add(double x, double y) {
-		//TODO: Complete method
-		return 0;
+		double result = x + y;
+		history.add(x + " + " + y + " = " + result);
+		return result;
 	}
 	
 	public double subtract(double x, double y) {
-		//TODO: Complete method
-		return 0;
+		double result = x - y;
+		history.add(x + " - " + y + " = " + result);
+		return result;
 	}
 	
 	public double divide(double x, double y) {
-		//TODO: Complete method
-		return 0;
+		double result = x / y;
+		history.add(x + " / " + y + " = " + result);
+		return result;
 	}
 	
 	public double multiply(double x, double y) {
-		//TODO: Complete method
-		return 0;
+		double result = x * y;
+		history.add(x + " * " + y + " = " + result);
+		return result;
 	}
 	
 	public long add(long x, long y) {
-		//TODO: Complete method
-		return 0;
+		long result = x + y;
+		history.add(x + " + " + y + " = " + result);
+		return result;
 	}
 	
 	public long subtract(long x, long y) {
-		//TODO: Complete method
-		return 0;
+		long result = x - y;
+		history.add(x + " - " + y + " = " + result);
+		return result;
 	}
 	
 	public long divide(long x, long y) {
-		//TODO: Complete method
-		return 0;
+		long result = x / y;
+		history.add(x + " / " + y + " = " + result);
+		return result;
 	}
 	
 	public long multiply(long x, long y) {
-		//TODO: Complete method
-		return 0;
+		long result = x * y;
+		history.add(x + " * " + y + " = " + result);
+		return result;
 	}
 }
