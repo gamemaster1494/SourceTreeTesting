@@ -6,14 +6,21 @@ public class Calculator {
 	private List<String> history = new ArrayList<String>();
 	
 	public String getLastOperation(){
-		//TODO: Complete method
-		return "NOT DONE";
+		return history.get(history.size() - 1);
 	}
 	
 	public String[] getHistory(int num){
 		//TODO: Complete method;
+		if(num >= history.size()){
+			return history.toArray(new String[history.size()]);
+		}
 		String[] theHistory = new String[num];
-		
+		//start at last index and go back
+		int iCount = 0;
+		for(int i = history.size() - 1; iCount < num; i--){
+			theHistory[iCount] = history.get(i);
+			iCount++;
+		}
 		return theHistory;
 	}
 	
