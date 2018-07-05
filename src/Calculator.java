@@ -1,5 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Calculator {
+	
+	private List<String> history = new ArrayList<String>();
+	
+	public String getLastOperation(){
+		//TODO: Complete method
+		return "NOT DONE";
+	}
+	
+	public String[] getHistory(int num){
+		//TODO: Complete method;
+		String[] theHistory = new String[num];
+		
+		return theHistory;
+	}
 	
 	public int add(int x, int y) {
 		//TODO: Complete method.
